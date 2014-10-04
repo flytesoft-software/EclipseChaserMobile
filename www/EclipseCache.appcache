@@ -1,0 +1,40 @@
+CACHE MANIFEST
+# 10-03-2014 38
+
+# Explicitly cached 'master entries'.
+CACHE:
+SolarElevation.js
+EclipseCalc.js
+EclipseMap.js
+animateWorker.js
+planetpositions.js
+earth_vsop_d.js
+eclipse_ui.js
+jqm-datebox.core.min.js
+jqm-datebox.min.css
+jqm-datebox.mode.datebox.min.js
+jquery-2.1.1.min.js
+jquery.mobile-1.4.4.min.css
+jquery.mobile-1.4.4.min.js
+index.html
+changelog.html
+license.txt
+data/eclipses/catsmall.txt
+data/eclipses/SECOMB.js
+images/ajax-loader.gif
+images/favicon.png
+images/loc.png
+images/loc-man.png
+images/partial.png
+images/total.png
+images/annular.png
+images/hybrid.png
+images/no-eclipse.png
+
+#MAP STUFF
+#http://maps.google.com/maps/api/js?sensor=true&libraries=places
+
+# Resources that require the user to be online.
+NETWORK:
+*
+
