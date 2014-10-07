@@ -2,7 +2,7 @@
  * EclipseCalc.js
  * Eclipse Calculator Object Oriented JavaScript Library
  * Conversions and updates by: Joshua Berlin
- * Last Edited: 10-03-2014
+ * Last Edited: 10-07-2014
  * Version 1 by Chris O'Byrne and Fred Espenak - 2007.
  * (based on "Eclipse Calculator" by Chris O'Byrne and Stephen McCann - 2003)
  * 
@@ -3029,8 +3029,8 @@ function EclipseData(/* Object */ eclipse)
         
         if (limits)	// If we don't get these values, wrong eclipse or umbra lines not drawn yet.
         {
-            var longOffset = 0.5;       // Sample rate for longitude in umbra shadow drawing.
-            var latitudeOffset = 0.1;  // Sample rate for latitude in umbra shadow drawing.
+            var longOffset = 0.25;       // Sample rate for longitude in umbra shadow drawing.
+            var latitudeOffset = 0.05;  // Sample rate for latitude in umbra shadow drawing.
             
             var totalLongOffset = 0.0;
             var maxLongOffset = incrementLong(0.0, limits.getWestLimit() - limits.getEastLimit());
